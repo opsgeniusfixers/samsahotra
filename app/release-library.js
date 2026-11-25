@@ -3,7 +3,7 @@ import {useState} from 'react';
 import Link from 'next/link';
 export function Artwork({release,eager=false}){
  const [failed,setFailed]=useState(false);
- return <div className={release.archive?"artwork archive-artwork":"artwork"}><span className="art-fallback">{release.title}</span>{!failed&&<img src={release.cover} alt={release.title+' original release cover'} width={354} height={354} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined} onError={()=>setFailed(true)}/>}</div>
+ return <div className={release.archive?"artwork archive-artwork":release.soloDebut?"artwork solo-cover":"artwork"}><span className="art-fallback">{release.title}</span>{!failed&&<img src={release.cover} alt={release.title+' original release cover'} width={354} height={354} loading={eager?'eager':'lazy'} fetchPriority={eager?'high':undefined} onError={()=>setFailed(true)}/>}</div>
 }
 export function ReleaseLibrary({releases}){
  const [filter,setFilter]=useState('All');

@@ -25,3 +25,5 @@
 .video-toolbar .filters{max-width:100%;flex-wrap:wrap;border-radius:18px}.video-toolbar .filters button{white-space:normal;text-align:center}.video-toolbar{flex-wrap:wrap}.video-grid .video-image .artwork img{object-fit:cover;object-position:center}@media(max-width:600px){.video-toolbar .filters{width:100%;gap:4px}.video-toolbar .filters button{flex:1;padding:8px;font-size:11px}.video-toolbar .release-count{margin-left:auto}}
 
 .archive-artwork{background:#0b1a2a}.archive-artwork img{object-fit:contain!important}.release-detail-art:has(.archive-artwork){max-width:380px}.release-detail-art .archive-artwork{aspect-ratio:3/4}.release-detail-art .archive-artwork img{object-fit:contain!important}
+
+.release-detail-art:has(.solo-cover){max-width:none}.release-detail-art .solo-cover{aspect-ratio:720/320}.release-detail-art .solo-cover img{object-fit:contain!important}.release-grid .solo-cover img{object-fit:cover;object-position:left center;width:225%;max-width:none}.release-detail-art .archive-artwork{aspect-ratio:1338/1728}.release-detail-art .archive-artwork img{object-fit:contain!important}
