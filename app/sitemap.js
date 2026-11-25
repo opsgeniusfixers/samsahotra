@@ -1,1 +1,1 @@
-export default function sitemap(){return [{url:'https://samsahotra.com/',changeFrequency:'monthly',priority:1}]}
+export default function sitemap(){return ['/','/music','/videos','/about','/connect','/contact'].map(path=>({url:'https://samsahotra.com'+path,changeFrequency:path==='/'||path==='/music'?'monthly':'yearly',priority:path==='/'?1:.8}))}

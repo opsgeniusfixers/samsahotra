@@ -1,0 +1,8 @@
+import Link from 'next/link';
+import BrandLinks from '../brand-links';
+import {Artwork,ReleaseLibrary} from '../release-library';
+import {catalog,links,videos} from '../../lib/site-catalog.mjs';
+const external={target:'_blank',rel:'noopener noreferrer'};
+function Arrow(){return <span aria-hidden="true">↗</span>}
+export const metadata={title:"Music & Discography | Sam Sahotra",description:"Browse Sam Sahotra’s singles and albums, discover release artwork and listen on your favorite music platforms.",alternates:{canonical:"/music"},openGraph:{title:"Music & Discography | Sam Sahotra",description:"Browse Sam Sahotra’s singles and albums, discover release artwork and listen on your favorite music platforms.",url:"/music",type:'website'}};
+export default function Music(){return <main id="main-content"><div className="page-intro"><div className="shell"><Link className="breadcrumb" href="/">Home</Link><span className="crumb-divider" aria-hidden="true">/</span><span className="breadcrumb current">Music</span><div className="eyebrow page-label">SAM SAHOTRA / MUSIC</div><h1>The <em>discography.</em></h1><p>Explore singles, albums and songs of faith from Sam Sahotra.</p></div></div><section className="shell section inner-content"><ReleaseLibrary releases={catalog}/></section><section className="platform-band" aria-label="Streaming platforms"><div className="shell platforms"><div className="platform-heading"><p className="micro-label">YOUR MUSIC. YOUR WAY.</p><strong>Listen everywhere.</strong></div><BrandLinks items={['spotify','apple','itunes','youtube','soundcloud']} variant="stream" label="Music streaming platforms"/></div></section></main>}

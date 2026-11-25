@@ -1,0 +1,3 @@
+import Link from 'next/link';
+import BrandLinks from './brand-links';
+export default function Footer(){return <footer className="shell footer"><Link className="logo" href="/"><img src="/brand/sam-sahotra-logo.png" alt="Sam Sahotra official logo" width={791} height={558}/></Link><div className="footer-copy"><strong>Sam Sahotra</strong><small>© {new Date().getFullYear()} All rights reserved.</small></div><BrandLinks variant="footer"/><div className="footer-nav"><Link className="back-top" href="/contact">Contact me ↗</Link><a className="back-top" href="#main-content">Back to top ↑</a></div></footer>}

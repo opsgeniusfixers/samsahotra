@@ -1,0 +1,4 @@
+import Link from 'next/link';
+import Contact from '../contact';
+export const metadata={title:"Contact & Bookings | Sam Sahotra",description:"Contact Sam Sahotra for bookings, performances, music collaborations, interviews and general inquiries.",alternates:{canonical:"/contact"},openGraph:{title:"Contact & Bookings | Sam Sahotra",description:"Contact Sam Sahotra for bookings, performances, music collaborations, interviews and general inquiries.",url:"/contact",type:'website'}};
+export default function ContactPage(){return <main id="main-content"><div className="page-intro"><div className="shell"><Link className="breadcrumb" href="/">Home</Link><span className="crumb-divider" aria-hidden="true">/</span><span className="breadcrumb current">Contact</span><div className="eyebrow page-label">SAM SAHOTRA / CONTACT</div><h1>Get in <em>touch.</em></h1><p>Bookings, collaborations, interviews and general inquiries.</p></div></div><Contact/></main>}
