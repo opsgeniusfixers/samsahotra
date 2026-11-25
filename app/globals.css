@@ -27,3 +27,5 @@
 .archive-artwork{background:#0b1a2a}.archive-artwork img{object-fit:contain!important}.release-detail-art:has(.archive-artwork){max-width:380px}.release-detail-art .archive-artwork{aspect-ratio:3/4}.release-detail-art .archive-artwork img{object-fit:contain!important}
 
 .release-detail-art:has(.solo-cover){max-width:none}.release-detail-art .solo-cover{aspect-ratio:720/320}.release-detail-art .solo-cover img{object-fit:contain!important}.release-grid .solo-cover img{object-fit:cover;object-position:left center;width:225%;max-width:none}.release-detail-art .archive-artwork{aspect-ratio:1338/1728}.release-detail-art .archive-artwork img{object-fit:contain!important}
+
+.filters a{display:inline-flex;align-items:center;justify-content:center;color:var(--muted);font-size:13px;padding:12px 18px;border-radius:999px;transition:background .2s,color .2s;text-decoration:none}.filters a:hover{color:var(--gold)}.filters a.active{background:var(--gold);color:#16120d;font-weight:700}.video-toolbar .filters a{text-align:center;white-space:normal}@media(max-width:600px){.filters a{padding:10px 12px;font-size:12px}.video-toolbar .filters a{flex:1;font-size:11px;padding:8px}}
