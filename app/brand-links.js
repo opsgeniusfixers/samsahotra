@@ -4,7 +4,7 @@ const brands={
  youtube:{name:'YouTube',handle:'@samsahotra',action:'Subscribe',icon:siYoutube,url:links.youtube},
  instagram:{name:'Instagram',handle:'@samsahotra',action:'Follow',icon:siInstagram,url:links.instagram},
  facebook:{name:'Facebook',handle:'@samsahotramusik',action:'Follow',icon:siFacebook,url:links.facebook},
- tiktok:{name:'TikTok',handle:'Find Sam Sahotra',action:'Search',icon:siTiktok,url:links.tiktok},
+ tiktok:{name:'TikTok',handle:'@realsamsahotra',action:'Follow',icon:siTiktok,url:links.tiktok},
  soundcloud:{name:'SoundCloud',handle:'@samsahotra',action:'Listen',icon:siSoundcloud,url:links.soundcloud},
  spotify:{name:'Spotify',handle:'Sam Sahotra',action:'Listen',icon:siSpotify,url:links.spotify},
  apple:{name:'Apple Music',handle:'Sam Sahotra',action:'Listen',icon:siApplemusic,url:links.apple},
