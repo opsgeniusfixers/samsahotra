@@ -8,7 +8,7 @@ export default function Home(){const latest=catalog[0];return <main id="main-con
 <section className="hero" aria-labelledby="hero-title">
 <div className="hero-backdrop" aria-hidden="true"><img src={latest.cover} alt="" fetchPriority="low"/><div className="hero-mesh"/></div>
 <div className="shell hero-inner">
-<div className="hero-copy"><div className="eyebrow hero-eyebrow"><i/> OFFICIAL ARTIST WEBSITE</div><h1 id="hero-title">Sam<br/><em>Sahotra<span>.</span></em></h1><p className="hero-tagline">Music from the heart.</p><p className="hero-description">Pakistani-American Punjabi singer and Christian gospel artist. Explore the music of Sam Sahotra (real name Samson John).</p>
+<div className="hero-copy"><div className="eyebrow hero-eyebrow"><i/> OFFICIAL ARTIST WEBSITE</div><h1 id="hero-title">Sam<br/><em>Sahotra<span>.</span></em></h1><p className="hero-tagline">Singer · Lyricist · Composer · Humanitarian · Entrepreneur</p><p className="hero-description">Sam Sahotra (Samson John) is a Pakistani-American artist whose journey spans Punjabi and Christian gospel music, humanitarian work and entrepreneurship.</p>
 <div className="actions"><a className="button primary" href={latest.href} {...external}><span className="play-mini" aria-hidden="true">▶</span> Listen to the latest <Arrow/></a><a className="button secondary" href="/videos">Watch music videos <span aria-hidden="true">↗</span></a></div>
 <div className="hero-social"><p className="micro-label">FOLLOW THE JOURNEY</p><BrandLinks/></div></div>
 <div className="hero-feature"><div className="release-kicker"><span className="equalizer" aria-hidden="true">{[0,1,2,3,4].map(i=><b key={i} style={{'--i':i}}/>)}</span> LATEST RELEASE <span className="release-year">2026</span></div>
